@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/material_dynamic_neutral10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/wordOfTheDayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="22dp"
+        android:background="@color/white"
+        android:text="Word/Phrase of the Day"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/accessDictionaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/accent_2"
+        android:layout_marginTop="16dp"
+        android:text="Warrungu Dictionary"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/accessDictionaryByTypeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/accent_2"
+        android:layout_marginTop="16dp"
+        android:text="Dictionary By Type"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/accessGamesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/accent_2"
+        android:layout_marginTop="16dp"
+        android:text="Language Games"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/accessWarrungunyalbayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/accent_2"
+        android:layout_marginTop="16dp"
+        android:text="Warrungu nyalbay"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/accessWarrunguFamilyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/accent_2"
+        android:layout_marginTop="16dp"
+        android:text="Warrungu Family's"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+</LinearLayout>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#ffa100</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="accent_2">#E6985D</color>
+    <color name="burgundy">#803700</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="loginButtonColor">#FF5722</color> <!-- Example color for the login button -->
+    <color name="signUpButtonColor">#4CAF50</color> <!-- Example color for the sign-up button -->
+
+</resources>

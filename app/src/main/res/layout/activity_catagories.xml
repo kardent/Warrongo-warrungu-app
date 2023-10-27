@@ -1,0 +1,121 @@
+<!-- res/layout/activity_categories.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burgundy"
+    android:padding="16dp"
+    tools:context=".Catagories">
+
+    <Button
+        android:id="@+id/nounsButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Nouns"
+        app:layout_constraintBottom_toTopOf="@+id/verbsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/verbsButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Verbs"
+        app:layout_constraintBottom_toTopOf="@+id/adjectivesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nounsButton" />
+
+    <Button
+        android:id="@+id/adjectivesButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Adjectives"
+        app:layout_constraintBottom_toTopOf="@+id/familyButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verbsButton" />
+
+    <Button
+        android:id="@+id/familyButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Family"
+        app:layout_constraintBottom_toTopOf="@+id/pronounsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adjectivesButton" />
+
+    <Button
+        android:id="@+id/pronounsButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Pronouns"
+        app:layout_constraintBottom_toTopOf="@+id/phrasesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/familyButton" />
+
+    <Button
+        android:id="@+id/phrasesButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Common Phrases"
+        app:layout_constraintBottom_toTopOf="@+id/commonWordsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pronounsButton" />
+
+    <Button
+        android:id="@+id/commonWordsButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Common Words"
+        app:layout_constraintBottom_toTopOf="@+id/suffixesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phrasesButton" />
+
+    <Button
+        android:id="@+id/suffixesButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Suffixes"
+        app:layout_constraintBottom_toTopOf="@+id/animalsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commonWordsButton" />
+
+    <Button
+        android:id="@+id/animalsButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Animals"
+        app:layout_constraintBottom_toTopOf="@+id/countriesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suffixesButton" />
+
+    <Button
+        android:id="@+id/countriesButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Countries"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animalsButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

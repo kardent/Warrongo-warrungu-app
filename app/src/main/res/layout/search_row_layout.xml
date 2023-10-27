@@ -1,0 +1,62 @@
+<androidx.cardview.widget.CardView android:layout_height="100dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="@color/accent_2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        card_view:cardElevation="20dp"
+        android:layout_margin="10dp"
+        card_view:contentPadding="20dp"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:src="@color/burgundy"
+            card_view:layout_constraintLeft_toLeftOf="@id/card_view"
+            card_view:layout_constraintTop_toTopOf="@id/card_view"
+            android:paddingRight="10dp"
+            />
+        <TextView
+            android:id="@+id/language"
+            card_view:layout_constraintLeft_toRightOf="@id/image"
+            card_view:layout_constraintTop_toTopOf="@id/card_view"
+            card_view:layout_constraintRight_toRightOf="@id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:linksClickable="true"
+            android:text="Babiguway"
+            card_view:layout_constraintStart_toEndOf="@id/image"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/english"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            card_view:layout_constraintLeft_toRightOf="@id/image"
+            card_view:layout_constraintTop_toBottomOf="@id/language"
+            card_view:layout_constraintRight_toRightOf="@id/card_view"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:text="'All my Babi'"
+            android:textColor="#000"
+            android:textSize="16dp"
+            card_view:layout_constraintStart_toEndOf="@id/image"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
